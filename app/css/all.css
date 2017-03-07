@@ -1,0 +1,52 @@
+.sale {
+  overflow: hidden;
+  padding-top: 20px; }
+  .sale_item {
+    float: left;
+    width: 180px;
+    height: 250px;
+    margin: 0px 25px 25px 0px;
+    border: 2px solid #808080;
+    border-radius: 10px;
+    padding: 0px 5px 20px 5px;
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out; }
+    .sale_item:hover {
+      border: 2px solid #38B8DA;
+      -webkit-box-shadow: inset 0 0 5px #38B8DA;
+      box-shadow: inset 0 0 5px #38B8DA; }
+  .sale_h {
+    text-align: center;
+    padding: 0px 0px 5px 5px;
+    height: 30px;
+    font-weight: bold; }
+  .sale_descr {
+    height: 36px;
+    text-align: center;
+    font-size: 12px; }
+  .sale_price {
+    text-align: center;
+    padding-bottom: 5px; }
+  .sale_link {
+    display: block;
+    width: 100px;
+    text-align: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(#cde2eb)) repeat scroll 0 0 transparent;
+    background: -webkit-linear-gradient(top, white 0%, #cde2eb 100%) repeat scroll 0 0 transparent;
+    background: linear-gradient(to bottom, white 0%, #cde2eb 100%) repeat scroll 0 0 transparent;
+    border: 2px solid #4c9fbb;
+    border-radius: 3px;
+    color: #006699;
+    margin: 0 auto;
+    padding: 3px 0px 3px 0px;
+    text-decoration: none;
+    -webkit-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out; }
+    .sale_link:hover {
+      background: -webkit-gradient(linear, left top, left bottom, from(#cde2eb), to(white)) repeat scroll 0 0 transparent;
+      background: -webkit-linear-gradient(top, #cde2eb 0%, white 100%) repeat scroll 0 0 transparent;
+      background: linear-gradient(to bottom, #cde2eb 0%, white 100%) repeat scroll 0 0 transparent;
+      border: 2px solid #1b83c6; }
+
+.breadcrumb {
+  padding-bottom: 7px; }

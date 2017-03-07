@@ -1,0 +1,80 @@
+*,
+*:before,
+*:after{
+
+}
+body{
+
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+h4{
+
+}
+p{
+
+}
+a{
+
+}
+b, strong{
+
+}
+em{
+
+}
+input{
+	//-webkit-appearance: none;
+  //border-radius:0;
+}
+button, input[type="reset"], input[type="button"], input[type="submit"] {
+  //box-shadow: none;
+}
+a, input, textarea, select, button, div{
+  &:focus{
+    //outline: none;
+  }
+}
+textarea{
+  //overflow: auto;
+}
+pre{
+  //word-wrap: break-word;
+}
+//::-webkit-input-placeholder {
+//  font-family: $fontContent;
+// font-size: 13px;
+//  color: rgba(255,255,255,.7);
+//}
+//:-moz-placeholder {
+//  font-family: $fontContent;
+//  font-size: 13px;
+//  color: rgba(255,255,255,.7);
+//}
+//::-moz-placeholder {
+//  font-family: $fontContent; 
+// font-size: 13px;
+//  color: rgba(255,255,255,.7);
+//}
+//:-ms-input-placeholder {
+//  font-family: $fontContent;
+//  font-size: 13px;
+//  color: rgba(255,255,255,.7);
+//}
+//::-ms-input-placeholder {
+//  font-family: $fontContent;
+// font-size: 13px;
+//  color: rgba(255,255,255,.7);
+//}
+//:placeholder-shown {
+//  font-family: $fontContent;
+//  font-size: 13px;
+// color: rgba(255,255,255,.7);
+//}
